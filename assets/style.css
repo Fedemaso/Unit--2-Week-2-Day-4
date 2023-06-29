@@ -14,11 +14,10 @@ body {
 }
 
 .text-button {
-  width: 45%;
   text-align: start;
   align-items: center;
   justify-content: flex-start;
-  margin-left: 20px;
+
   margin-top: 40px;
   color: white;
 }
@@ -63,10 +62,6 @@ h1 {
   }
 }
 
-.section2 {
-  border-bottom: 2px solid lightgrey;
-}
-
 .section2 ul {
   display: flex;
   flex-direction: row;
@@ -107,11 +102,10 @@ h1 {
   }
 }
 
-.title-sec3 {
-  margin-top: 5%;
-  margin-left: 17%;
-  margin-bottom: 30px;
+.title-sec3 h3 {
+  margin-top: 40px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .section3 {
@@ -131,6 +125,7 @@ footer {
 
 footer div {
   margin-top: 80px;
+  margin-left: 10px;
 }
 
 footer ul {
