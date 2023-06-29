@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #7550fe;
+}
+
+.text-button {
+  width: 45%;
+  text-align: start;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-button p {
+  opacity: 0.5;
+  width: 50%;
+}
+
+.buttons-div button {
+  padding: 13px 18px;
+  background-color: white;
+  border-radius: 6px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #1acb98;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+  }
+  .text-button {
+    width: 80%;
+  }
+
+  .text-button p {
+    width: 80%;
+  }
+
+  .buttons-div {
+    margin-bottom: 25px;
+  }
+}
+
+.section2 {
+  border-bottom: 2px solid lightgrey;
+}
+
+.section2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.section2 li {
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.div-li h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.section2 button {
+  background-color: #ffeeda;
+  border-radius: 100px;
+  font-size: 6px;
+  border: none;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+.div-li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .section2 ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.title-sec3 {
+  margin-top: 5%;
+  margin-left: 17%;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  background-color: #f6f0f0;
+}
+
+footer {
+  background-color: #f6f0f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer div {
+  margin-top: 80px;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer li {
+  margin-right: 30px;
+}
